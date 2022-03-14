@@ -17,9 +17,9 @@
     </AvaloniaXaml>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.10.999-cibuild0015107-beta" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.10.999-cibuild0015107-beta" />
-    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.999-cibuild0015107-beta" />
+    <PackageReference Include="Avalonia" Version="0.10.13" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.13" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.13" />
    </ItemGroup>
   <ItemGroup>
     <Compile Update="App.xaml.cs">
