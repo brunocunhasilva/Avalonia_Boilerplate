@@ -5,5 +5,8 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Avalonia.Boilerplate.MainWindow"
         Title="Avalonia.Boilerplate">
-    Welcome to Avalonia!
+    <StackPanel Orientation="Vertical">
+        <Label Name="MyLabel">Welcome to Avalonia!</Label>
+        <Button Name="MyButton" Click="MyButton_OnClick">Click Me!</Button>
+    </StackPanel>
 </Window>
