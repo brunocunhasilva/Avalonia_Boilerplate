@@ -5,8 +5,15 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Avalonia.Boilerplate.MainWindow"
         Title="Avalonia.Boilerplate">
+    
+    <NativeMenu.Menu>
+        <NativeMenu>
+        </NativeMenu>
+    </NativeMenu.Menu>
+    
     <StackPanel Orientation="Vertical">
-        <Label Name="MyLabel">Welcome to Avalonia!</Label>
-        <Button Name="MyButton" Click="MyButton_OnClick">Click Me!</Button>
+        <Label Name="MyLabel">Click bellow to recreate the Native Menus and check the memory growing</Label>
+        <Button Name="MyButton" Click="MyButton_OnClick">Click me!</Button>
+        <Button Name="ForGCCollectButton" Click="ForGCCollectButton_OnClick">Force GC Collect</Button>
     </StackPanel>
 </Window>
